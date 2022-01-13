@@ -7,4 +7,20 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'calculator';
+  public num1:number;
+  public num2:number;
+  public num3:number;
+
+  add(){
+    this.num3=this.num1+this.num2;
+  }
+  sub(){
+    this.num3=this.num1-this.num2;
+  }
+  multiply(){
+    this.num3=this.num1*this.num2;
+  }
+  devide(){
+    this.num3=this.num1/this.num2;
+  }
 }
